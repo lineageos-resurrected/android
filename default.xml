@@ -66,7 +66,7 @@
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/bison" name="LineageOS/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="LineageOS/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="LineageOS/android_external_bluetooth_bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="LineageOS-external/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" />
   <project path="external/bsdiff" name="LineageOS/android_external_bsdiff" groups="pdk" />
   <project path="external/bson" name="LineageOS/android_external_bson" />
@@ -181,7 +181,7 @@
   <project path="external/liblzf" name="LineageOS/android_external_liblzf" groups="pdk" />
   <project path="external/libmtp" name="LineageOS/android_external_libmtp" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="LineageOS-resurrected/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnl-headers" name="LineageOS/android_external_libnl-headers" groups="pdk" />
   <project path="external/libogg" name="LineageOS/android_external_libogg" />
@@ -199,7 +199,7 @@
   <project path="external/libusb-compat" name="LineageOS/android_external_libusb-compat" />
   <project path="external/libssh2" name="platform/external/libssh2" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/libvorbis" name="LineageOS/android_external_libvorbis" />
-  <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" />
+  <project path="external/libvpx" name="LineageOS-resurrected/android_external_libvpx" groups="pdk" />
   <project path="external/libxml2" name="LineageOS/android_external_libxml2" />
   <project path="external/libxslt" name="LineageOS/android_external_libxslt" />
   <project path="external/libyuv" name="LineageOS/android_external_libyuv" groups="libyuv" />
@@ -253,15 +253,15 @@
   <project path="external/safe-iop" name="LineageOS/android_external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
-  <project path="external/sfntly" name="LineageOS/android_external_sfntly" />
+  <project path="external/sfntly" name="LineageOS-resurrected/android_external_sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="external/skia" name="LineageOS/android_external_skia" />
+  <project path="external/skia" name="LineageOS-resurrected/android_external_skia" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/smali" name="LineageOS/android_external_smali" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="LineageOS/android_external_speex" groups="pdk" />
   <project path="external/spongycastle" name="LineageOS/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" />
+  <project path="external/sqlite" name="LineageOS-resurrected/android_external_sqlite" groups="pdk" />
   <project path="external/square/dagger" name="LineageOS/android_external_square_dagger" />
   <project path="external/square/javawriter" name="LineageOS/android_external_square_javawriter" />
   <project path="external/srec" name="LineageOS/android_external_srec" />
@@ -293,15 +293,15 @@
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="LineageOS/android_external_zxing" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/av" name="LineageOS-resurrected/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="LineageOS-resurrected/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
   <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" />
   <project path="frameworks/mff" name="LineageOS/android_frameworks_mff" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="LineageOS-resurrected/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="LineageOS/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" />
@@ -357,7 +357,7 @@
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/Apollo" name="LineageOS/android_packages_apps_Apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Bluetooth" name="LineageOS-resurrected/android_packages_apps_Bluetooth" />
   <project path="packages/apps/BluetoothExt" name="LineageOS/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="LineageOS/android_packages_apps_Calculator" />
@@ -376,7 +376,7 @@
   <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" />
   <project path="packages/apps/DSPManager" name="LineageOS/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" />
+  <project path="packages/apps/Email" name="LineageOS-resurrected/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" />
@@ -384,7 +384,7 @@
   <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="LineageOS/android_packages_apps_Mms-caf" />
-  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="LineageOS-resurrected/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" />
@@ -398,7 +398,7 @@
   <project path="packages/apps/ThemeChooser" name="LineageOS/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Torch" name="LineageOS/android_packages_apps_Torch" />
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" />
+  <project path="packages/apps/UnifiedEmail" name="LineageOS-resurrected/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="LineageOS/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="LineageOS/android_packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="LineageOS/android_packages_apps_VoicePlus" />
@@ -477,7 +477,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="pdk,tools" />
   <project path="sdk" name="LineageOS/android_sdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r4" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
+  <project path="system/core" name="LineageOS-resurrected/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
