@@ -19,7 +19,7 @@
            sync-j="4" />
 
 <!-- BEGIN LINEAGEOS -->
-  <project path="build" name="LineageOS/android_build" groups="pdk" >
+  <project path="build" name="LineageOS-resurrected/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="LineageOS/android" />
@@ -91,7 +91,7 @@
   <project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
+  <project path="external/libnfc-nci" name="LineageOS-resurrected/android_external_libnfc-nci" groups="pdk" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" />
   <project path="external/libnl" name="LineageOS/android_external_libnl" groups="pdk"  />
@@ -144,12 +144,12 @@
   <project path="external/v8" name="LineageOS/android_external_v8" groups="pdk" remote="github" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/vogar" name="LineageOS/android_external_vogar" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="LineageOS-resurrected/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="LineageOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/av" name="LineageOS-resurrected/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="LineageOS-resurrected/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
@@ -240,7 +240,7 @@
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Provision" name="LineageOS/android_packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="LineageOS/android_packages_apps_Screencast" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="LineageOS-resurrected/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
   <project path="packages/apps/SmartCardService" name="LineageOS/android_packages_apps_SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
@@ -288,7 +288,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="LineageOS/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
+  <project path="system/bt" name="LineageOS-resurrected/android_system_bt" groups="pdk" />
   <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
