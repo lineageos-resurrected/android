@@ -3,7 +3,7 @@
 </br>
 <strong><i> Legacy LineageOS, with the latest patches! </i></strong>
 </br>
-<i> LineageOS is a version of LineageOS 11 that has some additional security patches and bug fixes from 2019 and 2020 that were never merged for some reason. LineageOS 11 is still EOL, and I recommend using a later version if possible. </i>
+<i> LineageOS resurrected is a version of LineageOS 11 that has some additional security patches and bug fixes from 2019 and 2020 that were never merged for some reason. LineageOS 11 is still EOL, and I recommend using a later version if possible. </i>
 </br>
 
 Getting started
