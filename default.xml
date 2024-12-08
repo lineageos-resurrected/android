@@ -22,7 +22,7 @@
   <project path="build" name="LineageOS-resurrected/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="LineageOS/android" />
+  <project path="android" name="LineageOS-resurrected/android" />
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
