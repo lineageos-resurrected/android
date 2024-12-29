@@ -1,36 +1,39 @@
-LineageOS
-===========
+<div align="center">
+<h1>LineageOS Resurrected</h1>
+</br>
+<strong><i> Legacy LineageOS, with the latest patches! </i></strong>
+</br>
+<i> LineageOS resurrected is a version of LineageOS 18.1 that has the security patches and bug fixes from 2023 and onwards from Lineage's gerrit which were never merged onto their GitHub, so you can use Android 11 securely! </i>
+</br>
 
 Getting started
 ---------------
+To get started with Android/LineageOS, you'll need to get
+familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
+Credits
+-------
+- [**LineageOS**](https://github.com/LineageOS)
+*********
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using your trees, use a command like this:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
+repo init -u https://github.com/lineageos-resurrected/android.git -b  lineage-18.1 --git-lfs --depth=1
 ```
 Then to sync up:
 ```
+repo sync -c -j$(echo <number of cpu threads you have>) --force-sync --no-clone-bundle --no-repo-verify --no-tags --optimized-fetch
+```
+If you get HTTP errors, when repo finishes, just run
+```
 repo sync
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+And to start build:
+```
+. build/envsetup.sh
+breakfast <device codename>
+m bacon -j<number of cpu threads you have>
+```
+You can also replace "<device codename>" with "lineage_<device codename>-eng" for a debug build.
 
-
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
-
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+Brought back to life by Ivy with <3.
