@@ -66,7 +66,7 @@
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/bison" name="LineageOS/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="LineageOS/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="LineageOS-external/android_external_bluetooth_bluedroid" groups="pdk" />
+  <project path="external/bluetooth/bluedroid" name="lineageos-resurrected/android_external_bluetooth_bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" />
   <project path="external/bsdiff" name="LineageOS/android_external_bsdiff" groups="pdk" />
   <project path="external/bson" name="LineageOS/android_external_bson" />
