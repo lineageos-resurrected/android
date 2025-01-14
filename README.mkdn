@@ -34,6 +34,6 @@ And to start build:
 breakfast <device codename>
 m bacon -j<number of cpu threads you have>
 ```
-You can also replace "<device codename>" with "lineage_<device codename>-eng" for a debug build.
+You can also replace `<device codename>` with `lineage_<device codename>-eng` for a debug build.
 
 Brought back to life by Ivy with <3.
