@@ -22,7 +22,7 @@ repo init -u https://github.com/lineageos-resurrected/android.git -b  lineage-16
 ```
 Then to sync up:
 ```
-repo sync -c -j$(echo 60) --force-sync --no-clone-bundle --no-repo-verify --no-tags --optimized-fetch
+repo sync -c -j$(echo 12) --force-sync --no-clone-bundle --no-repo-verify --no-tags --optimized-fetch
 ```
 If you get HTTP errors, when repo finishes, just run
 ```
