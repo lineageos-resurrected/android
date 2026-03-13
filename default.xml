@@ -332,7 +332,7 @@
   <project path="external/zlib" name="lineageos-resurrected/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" remote="aosp" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="LineageOS-resurrected/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="LineageOS-resurrected/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
@@ -434,7 +434,7 @@
   <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
   <project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" remote="aosp" />
-  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="pdk-fs" />
+  <project path="packages/apps/TvSettings" name="LineageOS-resurrected/android_packages_apps_TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="LineageOS/android_packages_apps_TV" />
   <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
   <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" groups="pdk-fs" />
