@@ -526,7 +526,7 @@
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
   <project path="system/hwservicemanager" name="LineageOS/android_system_hwservicemanager" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" remote="aosp" />
-  <project path="system/libfmq" name="LineageOS/android_system_libfmq" groups="pdk" />
+  <project path="system/libfmq" name="LineageOS-resurrected/android_system_libfmq" groups="pdk" />
   <project path="system/libhidl" name="LineageOS/android_system_libhidl" groups="pdk" />
   <project path="system/libhwbinder" name="LineageOS/android_system_libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" remote="aosp" />
