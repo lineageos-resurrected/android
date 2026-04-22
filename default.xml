@@ -412,7 +412,7 @@
   <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="LineageOS-resurrected/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="LineageOS/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" />
