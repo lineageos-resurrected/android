@@ -364,7 +364,7 @@
   <project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" />
-  <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" />
+  <project path="packages/apps/CertInstaller" name="LineageOS-resurrected/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMAccount" name="LineageOS/android_packages_apps_CMAccount" />
   <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
   <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
