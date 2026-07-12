@@ -389,7 +389,7 @@
   <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="LineageOS/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="LineageOS-resurrected/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" name="LineageOS/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="LineageOS/android_packages_apps_SpeechRecorder" />
